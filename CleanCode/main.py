@@ -14,7 +14,7 @@ while running:
             2) Encapsulamiento
             3) Herencia
             4) Polimorfismo
-        -> Presiona cualquier letra para salir
+        -> Presiona cualquier letra y luego enter para salir
     ''')
     option = input('¿Qué quieres aprender? \n\rEscribe el número correspondiente: ')
 
@@ -30,6 +30,6 @@ while running:
         running = False
 
     if running:
-        input('----> Presiona cualquier letra para seguir aprendiendo')
+        input('----> Presiona enter para seguir aprendiendo')
 
 print('\n\r\n\r¡Bye! (^◡^)/')

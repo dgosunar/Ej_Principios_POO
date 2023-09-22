@@ -1,9 +1,13 @@
 from Entities.player import Player
 
 def absExample():
+    '''
+        Abstraction example execution explained 
+    '''
+
     print('\n\r\n\r......................................../ Abstracción /........................................\n\r\n\r')
 
-    print('''( ^o^)_/ La abstracción nos permite simplificar entidades complejas representándolas \n\r            mediante atributos (cómo se "ven") y métodos (qué "hacen").\n\r''')
+    print('''          <<< La abstracción nos permite simplificar entidades complejas representándolas \n\r( ^o^)_/      mediante atributos (cómo se "ven") y métodos (qué "hacen"). >>>\n\r''')
 
     print("Por ejemplo, creamos una instancia de la clase 'Player' para describir a un jugador de videojuegos.\n\r")
     
