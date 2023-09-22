@@ -14,7 +14,6 @@ while running:
             2) Encapsulamiento
             3) Herencia
             4) Polimorfismo
-            
         -> Presiona cualquier letra para salir
     ''')
     option = input('¿Qué quieres aprender? \n\rEscribe el número correspondiente: ')
@@ -29,5 +28,8 @@ while running:
         polyExample()
     else:
         running = False
+
+    if running:
+        input('----> Presiona cualquier letra para seguir aprendiendo')
 
 print('\n\r\n\r¡Bye! (^◡^)/')
