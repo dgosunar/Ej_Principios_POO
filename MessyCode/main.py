@@ -2,11 +2,8 @@ from Principles.abstraction import absExample
 from Principles.encapsulation import enExample
 from Principles.inheritance import inhExample
 from Principles.polymorphism import polyExample
-
 print("\n\r\n\r------------------------------# Principios Básicos de POO #----------------------------- \n\r\n\r ¡Hola!  (•◡•)/")
-
 running = True
-
 while running:
     print('''
         Ruta de Aprendizaje:
@@ -17,7 +14,6 @@ while running:
         -> Presiona cualquier letra y luego enter para salir
     ''')
     option = input('¿Qué quieres aprender? \n\rEscribe el número correspondiente: ')
-
     if option == "1":
         absExample()
     elif option == "2":
@@ -28,8 +24,6 @@ while running:
         polyExample()
     else:
         running = False
-
     if running:
         input('----> Presiona enter para seguir aprendiendo')
-
 print('\n\r\n\r¡Bye! (^◡^)/')
