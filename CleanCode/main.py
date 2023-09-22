@@ -3,20 +3,24 @@ from Principles.encapsulation import enExample
 from Principles.inheritance import inhExample
 from Principles.polymorphism import polyExample
 
-print("\n\r\n\r------------------------------# Principios Básicos de POO #----------------------------- \n\r\n\r ¡Hola!  (•◡•)/")
+print(
+    "\n\r\n\r------------------------------# Principios Básicos de POO #----------------------------- \n\r\n\r ¡Hola!  (•◡•)/"
+)
 
 running = True
 
 while running:
-    print('''
+    print(
+        """
         Ruta de Aprendizaje:
             1) Abstracción
             2) Encapsulamiento
             3) Herencia
             4) Polimorfismo
         -> Presiona cualquier letra y luego enter para salir
-    ''')
-    option = input('¿Qué quieres aprender? \n\rEscribe el número correspondiente: ')
+    """
+    )
+    option = input("¿Qué quieres aprender? \n\rEscribe el número correspondiente: ")
 
     if option == "1":
         absExample()
@@ -30,6 +34,6 @@ while running:
         running = False
 
     if running:
-        input('----> Presiona enter para seguir aprendiendo')
+        input("----> Presiona enter para seguir aprendiendo")
 
-print('\n\r\n\r¡Bye! (^◡^)/')
+print("\n\r\n\r¡Bye! (^◡^)/")
