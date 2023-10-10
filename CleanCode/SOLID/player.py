@@ -1,4 +1,5 @@
-from gameStyles import GameStyle, FighterStyle, WizardStyle
+from gameStyles import GameStyle, FighterStyle, WizardStyle, HealerStyle
+
 
 class Player:
     def __init__(self, id, name, style: GameStyle):
@@ -13,24 +14,28 @@ class Player:
         """
         Player print his greeting according with his game style
         """
-        self.style.sayHi() #Abstract method
+        self.style.sayHi()  # Abstract method
 
     def sayPlay(self):
         """
         Player print his invitation to play according with his game style
         """
-        self.style.sayPlay() #Abstract method
+        self.style.sayPlay()  # Abstract method
+
 
 ## Examples ##
 
-pepo = Player(1, 'Pepo', FighterStyle())
+pepo = Player(1, "Pepo", FighterStyle())
 pepo.sayHi()
 pepo.sayPlay()
+print()
 
-pepa = Player(2, 'Pepa', WizardStyle())
+pepa = Player(2, "Pepa", WizardStyle())
 pepa.sayHi()
 pepa.sayPlay()
+print()
 
-nana = Player(3, 'Nana', HealerStyle())
+nana = Player(3, "Nana", HealerStyle())
 nana.sayHi()
 nana.sayPlay()
+print()

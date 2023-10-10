@@ -1,9 +1,9 @@
 class Player:
     def __init__(self, id, name):
-        self.__id = id                        #Private attribute
-        self._points = 0.0                        #Protected attribute
-        self.rank = 'bronce'                        #Public attribute
-        self.name = name                        #Public attribute
+        self.__id = id                        
+        self._points = 0.0                       
+        self.rank = 'bronce'                       
+        self.name = name                       
     def sayHi(self):
         print('¡Hola! Soy el jugador ' + self.name + ' y soy rango ' + self.rank)
     def sayPlay(self):

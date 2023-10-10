@@ -8,15 +8,20 @@ def polyExample():
     """
 
     print(
-        "\n\r\n\r........................................../ Polimorfismo /..........................................\n\r\n\r"
+        "\n\r\n\r........................................../ Polimorfismo \
+        /..........................................\n\r\n\r"
     )
 
     print(
-        """          <<< El polimorfismo es darle "muchas formas" a un atributo o método en diferentes clases \n\r( ^o^)_/       teniendo el mismo nombre pero dándoles un valor o funcionalidad diferente. >>>\n\r"""
+        """          <<< El polimorfismo es darle "muchas formas" a un atributo \
+            o método en diferentes clases 
+    ( ^o^)_/       teniendo el mismo nombre pero dándoles un valor o funcionalidad\
+          diferente. >>>\n\r"""
     )
 
     print(
-        "--> Para el ejemplo crearemos 4 instancias, una de la clase padre 'Player' y otras tres\n\rinstancias de cada una de las clases hijas de 'Player'."
+        "--> Para el ejemplo crearemos 4 instancias, una de la clase padre 'Player' \
+            y otras tres\n\rinstancias de cada una de las clases hijas de 'Player'."
     )
     player7 = Player(7, "Cristian")
     player8 = Fighter(8, "Carlos", "Fuerte")
@@ -55,7 +60,9 @@ def polyExample():
     )
 
     print(
-        "\n\rCada una de las clases hijas tomó los métodos 'sayHi()' y 'sayPlay()' de la clase padre 'Player'\n\r y los modificó acorde al estilo de juego propia. Así se les da 'forma diferente' según corresponda."
+        "\n\rCada una de las clases hijas tomó los métodos 'sayHi()' y 'sayPlay()' de \
+            la clase padre 'Player'\n\r y los modificó acorde al estilo de juego propia.\
+                  Así se les da 'forma diferente' según corresponda."
     )
 
     print("\n\rLos jugadores saludan con 'sayHi()':")
@@ -80,5 +87,6 @@ def polyExample():
 
     print("\n\r\n\r(っ＾▿＾)っ Aquí termina 'polimorfismo'.")
     print(
-        ".................................................................................................\n\r\n\r"
+        ".....................................................................\
+            ............................\n\r\n\r"
     )

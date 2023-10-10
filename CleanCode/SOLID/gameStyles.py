@@ -1,6 +1,7 @@
 from abc import abstractmethod, ABC
 
-#Abstract Interface
+
+# Abstract Interface
 class GameStyle(ABC):
     @abstractmethod
     def sayHi(self):
@@ -10,7 +11,9 @@ class GameStyle(ABC):
     def sayPlay(self):
         pass
 
+
 ## Game styles that depends on the interface ##
+
 
 class FighterStyle(GameStyle):
     def sayHi(self):

@@ -4,7 +4,8 @@ from Principles.inheritance import inhExample
 from Principles.polymorphism import polyExample
 
 print(
-    "\n\r\n\r------------------------------# Principios Básicos de POO #----------------------------- \n\r\n\r ¡Hola!  (•◡•)/"
+    "\n\r\n\r------------------------------# Principios Básicos de POO #--\
+    --------------------------- \n\r\n\r ¡Hola!  (•◡•)/"
 )
 
 running = True
@@ -20,7 +21,10 @@ while running:
         -> Presiona cualquier letra y luego enter para salir
     """
     )
-    option = input("¿Qué quieres aprender? \n\rEscribe el número correspondiente: ")
+    option = input(
+        "¿Qué quieres aprender? \n\rEscribe el número \
+                   correspondiente: "
+    )
 
     if option == "1":
         absExample()
